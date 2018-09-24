@@ -12,6 +12,7 @@ namespace HungerGames.Tributes
         private int age { get; set; }
         private Gender gender { get; set; }
 
+        Player() { }
 
         public Player(int id, string name, int age, Gender gender)
         {
@@ -20,9 +21,7 @@ namespace HungerGames.Tributes
             this.age = age;
             this.gender = gender;
         }
-
-        Player() { }
-
+              
         public override string ToString()
         {
             if (gender == Gender.FEMALE)
@@ -35,6 +34,5 @@ namespace HungerGames.Tributes
                 return null;
             }
         }
-
     }
 }

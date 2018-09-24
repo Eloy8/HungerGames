@@ -1,7 +1,5 @@
-﻿using hungergames.tributes;
-using HungerGames.Tributes;
+﻿using HungerGames.Tributes;
 using System;
-using System.Collections.Generic;
 
 namespace HungerGames
 {
@@ -9,13 +7,10 @@ namespace HungerGames
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            //.generatePlayers(24);
+            Console.WriteLine("It was a bright day in April, and the clocks were striking thirteen.");
 
             PlayerFactory pf = new PlayerFactory();
             pf.GeneratePlayers();
-
-
         }
     }
 }
